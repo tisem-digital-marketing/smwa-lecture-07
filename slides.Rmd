@@ -50,9 +50,129 @@ class: inverse, center, middle
 # Approaches to Advertising Measurement
 
 ---
-class: inverse, center, middle
+# Measuring Ad Effectiveness
 
+**Motivation**: Measuring the causal effect of digital advertising
+
+**Specific Questions**:
+
+* What **is** the effect?
+* Can we reliably estimate the effect without RCTs?
+
+**How?**: Large scale experiments (15) at Facebook
+
+* Note: This paper is **very** cool
+* The authors are *extremely* careful in their explanations
+
+---
+# Advertising on Facebook
+
+* Ads appear in the News Feed
+
+[INSERT PIC]
+
+* Advertiser chooses tarfet demographic(s), users then exposed to treatement / control
+
+---
+# Endogeneity Abounds Us (Them)
+
+Concern: Sources of selection bias (Why?)
+
+**User Induced Endogeneity**
+
+* 'Activity bias' - user must be on Facebook during campaign to be exposed
+
+**Targeting Induced Endogeneity**
+
+* Ad delivery system optimizes whom to show ads 
+
+**Competition Induced Endogeneity**
+
+* Displaying ad $\imples$ won an auction  $\implies$ exposed users are highly values (higher expected conversion probability)
+
+$\implies$ estimating causal effects without an RCT will be tough!
+
+---
+# What are they Measuring?
+
+**Average Treatment Effect on the Treated**:  effect of the ads on users who are actually exposed to ads
+
+**Lift**
+
+---
+# Data
+
+(Table)
+
+---
+# RCT Results 
+
+(TABLE)
+
+---
+# Observational Approaches
+
+(FIGURE)
+
+---
+# Main Takeaways
+
+* **RCTs are the gold standard for measuring ad effectiveness**
+  * Insignificant differences for checkout conversion in 6/15 experiments
+  * Significant for registratio and page views almost always
+
+* **Observational models generally overestimate lift**
+  * Can be wrong by a factor of 3
+  * 'Better' for registrations and page views than checkout
+
+---
+class: inverse, center, middle
 # Tweeting as a Marketing Tool
+
+---
+# Do Firm Tweets Matter?
+
+**Motivation**: Does tweeting increase demand for their products
+
+**Specific Questions**:
+
+* What is the causal effect of company tweets on demand?
+* Do retweets by influential users help?
+
+**How?**: Large scale experiment on Weibo w/ a media company
+
+* Note: (again) This paper is **very** cool
+
+---
+# The Experiment
+
+Weibo $\approx$ Chinese Twitter
+
+Industry: documentary TV shows, one show broadcast per day across seven local channels
+
+ADD TABLE 1
+
+---
+# Results
+
+TABLE 7
+
+---
+# Results II 
+
+TABLE 16
+
+---
+# Main Takeaways
+
+* Tweeting: positive & significant effect
+* Tweeting + Influential retweet: retweet gives a significant boost
+
+What's the mechanism? (subtle)
+
+* Influential tweets with broadcast time info attract new viewers
+  *  Table 8 and 9
+* Informative tweets (broadcast time) also attract new followers to company page
 
 ---
 class: inverse, center, middle
@@ -60,12 +180,68 @@ class: inverse, center, middle
 # Advertising and Word of Mouth
 
 ---
+# Can Ads Generate WoM?
+
+**Motivation**: 20% of WoM references TV Ads
+
+**Specific Questions**:
+
+* Does advertising effect WoM (online and offline)?
+* What about during large events (Superbowl)?
+
+**How?**: Observational data on WoM and advertising
+
+
+---
+# Data and Model
+
+536 brands, 16 product categories 
+
+**Advertising Data**: monthly ad expenditure from Ad$pender
+
+**Word of Mouth**: 
+
+* TalkTrack from Keller-Fay group ('Engagement Labs' / 'TotalSocial')
+* Nielsen's UGC search engine ('Nielsen McKinsey Incite')
+
+(ADD REGRESSION EQUATION)
+
+---
+# Results
+
+TABLE 2
+
+---
+# Category Heterogeneity
+
+---
+# Superbowl, Super Effect?
+
+---
+# Main Takeaways
+
+* **Small**, positive, statistically significant effect of advertising spending on WoM 
+  * Question: Is ad spend the *right* variable of interest?
+* Heterogeneity across categories
+  * Larger for Sports & Hobbies, Media & Entertainment, and Telecom 
+* Large events have larger effects that are short-lived 
+
+---
 class: inverse, center, middle
 
 # Recap
 
 ---
 # Recap
+
+* Measuring (digital) Ad effects is **hard**, endogeneity is everywhere
+  * RCTs/expriments are our the best way forward
+
+* Company tweets (these are ads) can generate demand, influential retweets even more
+  * mechanism: attracting a new audience 
+
+* Ads can spillover to generate (small) WoM effects
+  * Question: can we quantify the effect on demand?
 
 ---
 # License & Citation
