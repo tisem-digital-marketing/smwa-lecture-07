@@ -13,11 +13,17 @@ output:
       highlightLines: true
       countIncrementalSlides: false
 ---
-class: font200
+class: font180
 
 # Learning Goals for this Week
 
-TBD
+* Explain the advantages of an RCT in estimating ad effectiveness
+* Explain why observational studies cannot estimate casual effect of digital ads
+* Summarise effects of digital ads on checkout, page views and registrations
+* Discuss why company tweets may increase demand
+* Evaluate the effectiveness of company tweets on demand for products
+* Summarise the effects of advertising on word of mouth
+* Critically evaluate research results in the existing literature
 
 ---
 class: font160
@@ -42,6 +48,7 @@ class: inverse, center, middle
 # Approaches to Advertising Measurement
 
 ---
+class: font160
 # Measuring Ad Effectiveness
 
 **Motivation**: Measuring the causal effect of digital advertising
@@ -57,6 +64,7 @@ class: inverse, center, middle
 * The authors are *extremely* careful in their explanations
 
 ---
+class: font160
 # Advertising on Facebook
 
 * Ads appear in the News Feed
@@ -68,6 +76,7 @@ knitr::include_graphics("figs/facebook_ads.png")
 * Advertiser chooses target demographic(s), users then exposed to treatment / control
 
 ---
+class: font140
 # Endogeneity Abounds Us (Them)
 
 Concern: Sources of selection bias (Why?)
@@ -87,6 +96,7 @@ Concern: Sources of selection bias (Why?)
 $\implies$ estimating causal effects without an RCT will be tough!
 
 ---
+class: font160
 # What are they Measuring?
 
 **Average Treatment Effect on the Treated**:  effect of the ads on users who are actually exposed to ads
@@ -123,21 +133,25 @@ knitr::include_graphics("figs/facebook_overest.png")
 ```
 
 ---
+class: font160
 # Main Takeaways
 
-* **RCTs are the gold standard for measuring ad effectiveness**
-  * Insignificant differences for checkout conversion in 6/15 experiments
-  * Significant for registration and page views almost always
+**RCTs are the gold standard for measuring ad effectiveness**
 
-* **Observational models generally overestimate lift**
-  * Can be wrong by a factor of 3
-  * 'Better' for registrations and page views than checkout
+* Insignificant differences for checkout conversion in 6/15 experiments
+* Significant for registration and page views almost always
+
+**Observational models generally overestimate lift**
+
+* Can be wrong by a factor of 3
+* 'Better' for registrations and page views than checkout
 
 ---
 class: inverse, center, middle
 # Tweeting as a Marketing Tool
 
 ---
+class: font160
 # Do Firm Tweets Matter?
 
 **Motivation**: Does tweeting increase demand for their products
@@ -152,11 +166,14 @@ class: inverse, center, middle
 * Note: (again) This paper is **very** cool
 
 ---
+class: font160
 # The Experiment
 
 Weibo $\approx$ Chinese Twitter
 
-Industry: documentary TV shows, one show broadcast per day across seven local channels
+Industry: documentary TV shows 
+
+* One show broadcast per day across seven local channels
 
 ```{r, echo = FALSE, fig.align = "center", out.width="100%"}
 knitr::include_graphics("figs/gong_experiment.png")
@@ -177,12 +194,15 @@ knitr::include_graphics("figs/gong_quant.png")
 ```
 
 ---
+class: font150
 # Main Takeaways
+
+**Effects:**
 
 * Tweeting: positive & significant effect
 * Tweeting + Influential retweet: retweet gives a significant boost
 
-What's the mechanism? (subtle)
+**What's the mechanism?** (subtle)
 
 * Influential tweets with broadcast time info attract new viewers
   *  Table 8 and 9
@@ -194,6 +214,7 @@ class: inverse, center, middle
 # Advertising and Word of Mouth
 
 ---
+class: font160
 # Can Ads Generate WoM?
 
 **Motivation**: 20% of WoM references TV Ads
@@ -207,6 +228,7 @@ class: inverse, center, middle
 
 
 ---
+class: font160
 # Data and Model
 
 536 brands, 16 product categories 
@@ -245,6 +267,7 @@ knitr::include_graphics("figs/lovett_tab4.png")
 ```
 
 ---
+class: font160
 # Main Takeaways
 
 * **Small**, positive, statistically significant effect of advertising spending on WoM 
@@ -259,6 +282,7 @@ class: inverse, center, middle
 # Recap
 
 ---
+class: font160
 # Recap
 
 * Measuring (digital) Ad effects is **hard**, endogeneity is everywhere
