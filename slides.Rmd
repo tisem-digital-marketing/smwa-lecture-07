@@ -1,5 +1,5 @@
 ---
-title: "MODULE NAME"
+title: "Social Advertising"
 subtitle: "Social Media and Web Analytics"
 author: "Lachlan Deer"
 institute: "Tilburg University"
@@ -22,12 +22,50 @@ TBD
 ---
 class: inverse, center, middle
 
-# Section XX
+# Social Media and Ads 
 
 ---
-# Slide Title 
+# Social Advertising
 
-course content here
+---
+class: font160
+# Today's Agenda 
+
+Three papers:
+
+* [A Comparison of Approaches to Advertising Measurement: Evidence from Big Field Experiments at Facebook][gordon]
+  * Gordon, Zettelmeyer, Bhargava and Chapsky (2019,  Marketing Science)
+* [Tweeting as a Marketing Tool – Field Experiment in the TV Industry][gong]
+  * Gong, Zhang, Zhao and Jiang (2017, Journal of Marketing Research)
+* [Can Your Advertising Really Buy Earned Impressions? The Effect of Brand Advertising on Word of Mouth][lovett]
+  * Lovett, Peres and Xu (2019, Quantitative Marketing and Economics)
+
+[gordon]: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3033144
+[gong]: https://dspace.mit.edu/handle/1721.1/120756
+[lovett]: https://link.springer.com/article/10.1007/s11129-019-09211-9
+
+---
+class: inverse, center, middle
+
+# Approaches to Advertising Measurement
+
+---
+class: inverse, center, middle
+
+# Tweeting as a Marketing Tool
+
+---
+class: inverse, center, middle
+
+# Advertising and Word of Mouth
+
+---
+class: inverse, center, middle
+
+# Recap
+
+---
+# Recap
 
 ---
 # License & Citation
@@ -35,13 +73,14 @@ course content here
 Suggested Citation:
 
 ```{r, engine='out', eval = FALSE}
-@misc{ddw2021,
-      title={"Social Media and Web Analytics: Lecture Slide Template"},
+@misc{smwa_lecture_07,
+      title={"Social Media and Web Analytics: Lecture 07"},
       author={Lachlan Deer},
       year={2021},
-      url = "https://github.com/tisem-digital-marketing/smwa-lecture-template"
+      url = "https://github.com/tisem-digital-marketing/smwa-lecture-07"
 }
 ```
+
 
 <p style="text-align:center;"><img src="https://www.tilburguniversity.edu/sites/default/files/styles/large_width/public/image/Logo%20OSCT.png?itok=PqU9mw_l" alt="Logo" width = "200"></p>
 
