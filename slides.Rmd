@@ -71,7 +71,7 @@ class: inverse, center, middle
 
 [INSERT PIC]
 
-* Advertiser chooses tarfet demographic(s), users then exposed to treatement / control
+* Advertiser chooses target demographic(s), users then exposed to treatment / control
 
 ---
 # Endogeneity Abounds Us (Them)
@@ -119,7 +119,7 @@ $\implies$ estimating causal effects without an RCT will be tough!
 
 * **RCTs are the gold standard for measuring ad effectiveness**
   * Insignificant differences for checkout conversion in 6/15 experiments
-  * Significant for registratio and page views almost always
+  * Significant for registration and page views almost always
 
 * **Observational models generally overestimate lift**
   * Can be wrong by a factor of 3
@@ -235,7 +235,7 @@ class: inverse, center, middle
 # Recap
 
 * Measuring (digital) Ad effects is **hard**, endogeneity is everywhere
-  * RCTs/expriments are our the best way forward
+  * RCTs/experiments are our the best way forward
 
 * Company tweets (these are ads) can generate demand, influential retweets even more
   * mechanism: attracting a new audience 
