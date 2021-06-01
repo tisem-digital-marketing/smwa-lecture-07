@@ -20,14 +20,6 @@ class: font200
 TBD
 
 ---
-class: inverse, center, middle
-
-# Social Media and Ads 
-
----
-# Social Advertising
-
----
 class: font160
 # Today's Agenda 
 
@@ -69,7 +61,9 @@ class: inverse, center, middle
 
 * Ads appear in the News Feed
 
-[INSERT PIC]
+```{r, echo = FALSE, fig.align = "center", out.width="80%"}
+knitr::include_graphics("figs/facebook_ads.png")
+```
 
 * Advertiser chooses target demographic(s), users then exposed to treatment / control
 
@@ -88,7 +82,7 @@ Concern: Sources of selection bias (Why?)
 
 **Competition Induced Endogeneity**
 
-* Displaying ad $\imples$ won an auction  $\implies$ exposed users are highly values (higher expected conversion probability)
+* Displaying ad $\implies$ won an auction  $\implies$ exposed users are highly values (higher expected conversion probability)
 
 $\implies$ estimating causal effects without an RCT will be tough!
 
@@ -99,20 +93,34 @@ $\implies$ estimating causal effects without an RCT will be tough!
 
 **Lift**
 
+
+```{r, echo = FALSE, fig.align = "center", out.width="100%"}
+knitr::include_graphics("figs/facebook_lift.png")
+```
+
 ---
 # Data
 
-(Table)
+
+```{r, echo = FALSE, fig.align = "center", out.width="100%"}
+knitr::include_graphics("figs/facebook_data.png")
+```
 
 ---
 # RCT Results 
 
-(TABLE)
+
+```{r, echo = FALSE, fig.align = "center", out.width="100%"}
+knitr::include_graphics("figs/facebook_att.png")
+```
 
 ---
 # Observational Approaches
 
-(FIGURE)
+
+```{r, echo = FALSE, fig.align = "center", out.width="100%"}
+knitr::include_graphics("figs/facebook_overest.png")
+```
 
 ---
 # Main Takeaways
@@ -150,17 +158,23 @@ Weibo $\approx$ Chinese Twitter
 
 Industry: documentary TV shows, one show broadcast per day across seven local channels
 
-ADD TABLE 1
+```{r, echo = FALSE, fig.align = "center", out.width="100%"}
+knitr::include_graphics("figs/gong_experiment.png")
+```
 
 ---
 # Results
 
-TABLE 7
+```{r, echo = FALSE, fig.align = "center", out.width="63%"}
+knitr::include_graphics("figs/gong_main.png")
+```
 
 ---
 # Results II 
 
-TABLE 16
+```{r, echo = FALSE, fig.align = "center", out.width="100%"}
+knitr::include_graphics("figs/gong_quant.png")
+```
 
 ---
 # Main Takeaways
@@ -204,18 +218,31 @@ class: inverse, center, middle
 * TalkTrack from Keller-Fay group ('Engagement Labs' / 'TotalSocial')
 * Nielsen's UGC search engine ('Nielsen McKinsey Incite')
 
-(ADD REGRESSION EQUATION)
+```{r, echo = FALSE, fig.align = "center", out.width="100%"}
+knitr::include_graphics("figs/lovett_eq.png")
+```
+
 
 ---
 # Results
 
-TABLE 2
+```{r, echo = FALSE, fig.align = "center", out.width="65%"}
+knitr::include_graphics("figs/lovett_tab2.png")
+```
 
 ---
 # Category Heterogeneity
 
+```{r, echo = FALSE, fig.align = "center", out.width="100%"}
+knitr::include_graphics("figs/lovett_hetero.png")
+```
+
 ---
 # Superbowl, Super Effect?
+
+```{r, echo = FALSE, fig.align = "center", out.width="100%"}
+knitr::include_graphics("figs/lovett_tab4.png")
+```
 
 ---
 # Main Takeaways
